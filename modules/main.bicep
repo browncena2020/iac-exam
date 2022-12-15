@@ -3,7 +3,7 @@ import './modules/storage-accounts.bicep'
 param deployApp bool
 
 resource appServicePlan 'Microsoft.Web/serverfarms@2019-04-01' = {
-    name: '<your name>-asp'
+    name: 'saadsahir-asp'
     location: resourceGroup().location
     sku: {
         name: 'B1'
@@ -12,14 +12,14 @@ resource appServicePlan 'Microsoft.Web/serverfarms@2019-04-01' = {
 
 if deployApp {
     resource webApp 'Microsoft.Web/sites@2019-04-01' = {
-        name: '<your name>-app'
+        name: 'saadsahir-app'
         location: resourceGroup().location
         appServicePlanId: appServicePlan.id
         siteConfig: {
             appSettings: [
                 {
                     name: 'MYSECRET'
-                    value: '<your secret value>'
+                    value: '420'
                 }
             ]
         }
