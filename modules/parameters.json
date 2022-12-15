@@ -1,0 +1,16 @@
+{
+    "kind": "<storage account kind>",
+    "accessTier": "<storage account access tier>",
+    "storageAccountNames": ["<your name>finalexam1", "<your name>finalexam2"],
+    "deployApp": true
+    "clientId": "717f47e0-ae85-4126-ba09-f89715ce00e2",
+    "clientSecret": "J4g8Q~99jMKO9KB5QINkwFTiJncxYYfU_TDj6akE",
+    "subscriptionId": "e0b9cada-61bc-4b5a-bd7a-52c606726b3b",
+    "tenantId": "5ca2bc70-353c-4d1f-b7d7-7f2b2259df68",
+    "activeDirectoryEndpointUrl": "https://login.microsoftonline.com",
+    "resourceManagerEndpointUrl": "https://management.azure.com/",
+    "activeDirectoryGraphResourceId": "https://graph.windows.net/",
+    "sqlManagementEndpointUrl": "https://management.core.windows.net:8443/",
+    "galleryEndpointUrl": "https://gallery.azure.com/",
+    "managementEndpointUrl": "https://management.core.windows.net/"
+}
