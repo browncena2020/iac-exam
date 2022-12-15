@@ -4,7 +4,7 @@ param location string = resourceGroup().location
 param storageAccountNames string[]
 
 resource storageAccounts 'Microsoft.Storage/storageAccounts@2019-04-01' = {
-    name: storageAccountNames
+    name: saadsahir-finalexam
     kind: kind
     location: location
     sku: {
